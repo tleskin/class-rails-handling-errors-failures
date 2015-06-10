@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f5f3daf6-85b0-4904-89a5-1e1569ec0a7e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/04-setup.md" afterPath="$PROJECT_DIR$/content/04-setup.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/blogger_advanced/Gemfile.lock" afterPath="$PROJECT_DIR$/examples/blogger_advanced/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/blogger_advanced/db/seeds.rb" afterPath="$PROJECT_DIR$/examples/blogger_advanced/db/seeds.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="class-rails-handling-errors-failures.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,8 +26,8 @@
       <file leaf-file-name="04-setup.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/content/04-setup.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.180758">
-              <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.47521865">
+              <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -56,6 +53,7 @@
         <option value="$PROJECT_DIR$/content/active-record-rescue.md" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/content/01-intro.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/content/04-setup.md" />
       </list>
     </option>
@@ -292,10 +290,18 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/content/04-setup.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.180758">
-          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.47521865">
+          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
           <folding />
         </state>
       </provider>

@@ -6,14 +6,14 @@ git clone -b bootstrap https://github.com/JumpstartLab/blogger_advanced.git hand
 
 #### How to create a staging environment
 
-*	Create a staging.rb file in the environments folder.
-*	Copy the contents of the production.rb.
-*	Change line 45 to set the config.log_level to debug.
-*	Add staging to Gemfile
-*	Change config.serve_static_assets = true
-*	Add the database configuration for the staging server.
-*	Set the staging database
-*	Run rake assets:precompile
+* Create a staging.rb file in the environments folder.
+* Copy the contents of the production.rb.
+* Change line 45 to set the config.log_level to debug.
+* Add staging to Gemfile
+* Change config.serve_static_assets = true
+* Add the database configuration for the staging server.
+* Set the staging database
+* Run rake assets:precompile
 
 
 #### How to handle routing exceptions
@@ -24,13 +24,14 @@ git clone -b bootstrap https://github.com/JumpstartLab/blogger_advanced.git hand
 * Change the route to  match ':status', to: 'errors#show', via: :all, constraints: {status: /\d{3}/ }
 * Create a show action in the errors controller: render text: request.path
 * Add 404.html.erb template
-* Add render request.path[*.-1]
+* Add render request.path[1..-1]
 * Add @exception in the template
-*Add this line to the show action: @exception = env[“action_dispatch.exception”]
+* Add this line to the show action: @exception = env[“action_dispatch.exception”]
 
 
 #### Handling ActiveRecord Exceptions
 
-* Begin and rescue.
-* Modifying the articles#show to redirect to index when record not found.
-* Explain when to use this.
+*	Open the show action in the article controller
+*	Use begin and rescue to rescue ActiveRecord::RecordNotFound and redirect to articles_path
+*	Use rescue_from ActiveRecord::RecordNotFound, with: :record_not_found. Create a private method that redirects_to articles_path, notice: 'The article you are looking for doesn’t exist'
+*	Explain that it’s not ok to rescue all errors, such as validations.
