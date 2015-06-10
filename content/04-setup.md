@@ -8,7 +8,7 @@ git clone -b bootstrap https://github.com/JumpstartLab/blogger_advanced.git hand
 
 * Create a staging.rb file in the environments folder.
 * Copy the contents of the production.rb.
-* Change line 45 to set the config.log_level to debug.
+* Set the config.log_level to debug.
 * Add staging to Gemfile
 * Change config.serve_static_assets = true
 * Add the database configuration for the staging server.
