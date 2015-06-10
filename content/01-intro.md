@@ -7,6 +7,11 @@
 
 ## Structure
 
-* Create a Staging Environment
-* Handling Routing Exceptions
-* Handling ActiveRecord Exceptions
+* 10 - Warmup and Discussion
+* 10 - Why should we handle our own erros
+* 5 - Break
+* 10 - Active Record Rescue
+* 15 - Setup
+* 5 - Break
+* 20 - Exercise
+* 15 - Recap and Discussion

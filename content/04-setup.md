@@ -1,7 +1,9 @@
 #### Setup
 
-Clone this repo.
-git clone -b bootstrap https://github.com/JumpstartLab/blogger_advanced.git handling_errors
+* Clone this repo.
+https://github.com/itechdom/class-rails-handling-errors-failures
+
+* Look under the examples folder
 
 
 #### How to create a staging environment
