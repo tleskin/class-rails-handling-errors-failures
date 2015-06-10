@@ -31,7 +31,7 @@ git clone -b bootstrap https://github.com/JumpstartLab/blogger_advanced.git hand
 
 #### Handling ActiveRecord Exceptions
 
-*	Open the show action in the article controller
-*	Use begin and rescue to rescue ActiveRecord::RecordNotFound and redirect to articles_path
-*	Use rescue_from ActiveRecord::RecordNotFound, with: :record_not_found. Create a private method that redirects_to articles_path, notice: 'The article you are looking for doesn’t exist'
-*	Explain that it’s not ok to rescue all errors, such as validations.
+* Open the show action in the article controller
+* Use begin and rescue to rescue ActiveRecord::RecordNotFound and redirect to articles_path
+* Use rescue_from ActiveRecord::RecordNotFound, with: :record_not_found. Create a private method that redirects_to articles_path, notice: 'The article you are looking for doesn’t exist'
+* Explain that it’s not ok to rescue all errors, such as validations.
