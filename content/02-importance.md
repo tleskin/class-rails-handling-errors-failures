@@ -4,3 +4,8 @@
 * However, if you want to make your app more resilient, you should handle your own errors.
 * You can rescue routing errors, and active record errors giving you more flexibility.
 * To test this, you need a development environment that resembles production, but gives you the safety net to experiment.
+
+
+#### Handling ActiveRecord Exceptions
+
+* http://techoctave.com/c7/posts/36-rails-3-0-rescue-from-routing-error-solution
